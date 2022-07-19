@@ -21,7 +21,7 @@ Result should look similar to the one below:
 
 executed transaction: 0e49a421f6e75f4c5e09dd738a02d3f51bd18a0cf31894f68d335cd70d9c0e12  120 bytes  1000 cycles
 #   eosio.token <= eosio.token::create          {"issuer":"eosio","maximum_supply":"1000000000.0000 Gold"}
-This command created a new token SYS with a precision of 4 decimals and a maximum supply of 1000000000.0000 Gold. To create this token requires the permission of the eosio.token contract. For this reason, -p eosio.token@active was passed to authorize the request.
+This command created a new token Gold with a precision of 4 decimals and a maximum supply of 1000000000.0000 Gold. To create this token requires the permission of the eosio.token contract. For this reason, -p eosio.token@active was passed to authorize the request.
 
 
 
